@@ -20,7 +20,7 @@ module "aznamingtool" {
   location         = "EastUS"
   deployment_option = "container_instance"
   business_description = "AzNamingTool"
-  res_creator_account  = "John Doe"
+  creator_account  = "John Doe"
   release_env          = "DEV"
   resource_category    = "Tools"
   res_app_family       = "Cloud-Core"
